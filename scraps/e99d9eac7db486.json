@@ -1,0 +1,13 @@
+{
+  "title": "git config alias.autocrlf をリポジトリごとに使い分けたい",
+  "closed": false,
+  "archived": false,
+  "created_at": "2021-12-04",
+  "comments": [
+    {
+      "author": "naminodarie",
+      "created_at": "2021-12-04",
+      "body_markdown": "```\ngit config --global alias.clonelf \"clone -c core.autocrlf=input\"\n```\n\nalias を設定しておくのが良さそう。"
+    }
+  ]
+}
