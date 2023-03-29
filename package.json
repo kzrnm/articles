@@ -1,0 +1,7 @@
+{
+  "name": "articles",
+  "description": "Articles for Zenn",
+  "dependencies": {
+    "zenn-cli": "latest"
+  }
+}
