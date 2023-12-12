@@ -2,7 +2,7 @@
 title: 部分集合の部分集合を列挙する方法(3のN乗のループ)
 emoji: "➰"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["C#", "dotnet", "C", "cpp", "競技プログラミング"]
+topics: ["cpp", "競技プログラミング"]
 published: true
 ---
 
@@ -57,7 +57,7 @@ int main(void){
 :::
 ### 部分集合の部分集合の列挙
 
-以下のコードは C# で記述していますが C 系の言語ならば同様の記述ができるかと思います。
+以下のコードは C++ で記述していますが C 系の言語ならば同様の記述ができるかと思います。
 
 $N$ 個の要素を持つ集合の部分集合は $2^N$ 個あり、そこからさらに部分集合を取る場合の数は $3^N$ 個あります。
 
@@ -132,7 +132,7 @@ int main(void){
 `sub` と `other` を区別しない場合は `sub > other` としてよい
 `sub` と `other` を区別する場合は「部分集合の部分集合の列挙」と同様に列挙する。
 
-```csharp
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;
