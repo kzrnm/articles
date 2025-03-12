@@ -2,6 +2,6 @@
   "name": "articles",
   "description": "Articles for Zenn",
   "dependencies": {
-    "zenn-cli": "latest"
+    "zenn-cli": "^0.1.158"
   }
 }
