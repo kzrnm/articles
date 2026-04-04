@@ -1,5 +1,5 @@
 ---
-title: "PowerShell 用の　Git 補完モジュールをリリースしました"
+title: "PowerShell 用の Git 補完モジュールをリリースしました"
 emoji: "🛷"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: 
@@ -8,7 +8,7 @@ topics:
 published: true
 ---
 
-# PowerShell 用の　Git 補完モジュール
+# PowerShell 用の Git 補完モジュール
 
 PowerShell 用の Git 補完モジュール [git-completion-pwsh](https://github.com/kzrnm/git-completion-pwsh/) をリリースしました。[posh-git](https://github.com/dahlbyk/posh-git) の補完がかなり限られているので、bash の補完の完全再現と PowerShell 用の最適化を目指して作りました。Windows PowerShell でも最新のマルチプラットフォーム PowerShell でも動作します。
 
